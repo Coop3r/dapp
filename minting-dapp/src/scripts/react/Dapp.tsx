@@ -71,6 +71,7 @@ export default class Dapp extends React.Component<Props, State> {
           We were not able to detect <strong>MetaMask</strong>. We value <strong>privacy and security</strong> a lot so we limit the wallet options on the DAPP.<br />
           <br />
           But don't worry! <span className="emoji">😃</span> You can always interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> and <strong>we do our best to provide you with the best user experience possible</strong>, even from there.<br />
+          <a href="https://metamask.io/">Alternatively you can download Metamask, and import your ethereum wallet here.</a>
           <br />
           You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
         </>,
